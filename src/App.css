@@ -1,0 +1,170 @@
+body{
+  background-image: url('./Images/background\ img.avif');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.p1{
+  background:linear-gradient(
+    to left,
+    rgb(201, 111, 111),
+    rgb(229, 185, 104),
+    rgb(42, 36, 24)
+  );
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  border-bottom: 1px dotted white;
+  list-style-type: none;
+  
+  
+  
+}
+
+
+
+.p2{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  width:70px;
+  border-radius: 5px;
+  
+}
+.p2:hover{
+  background-color: blue;
+  color: white;
+}
+
+.p3{
+
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+ 
+
+}
+.p4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.p5{
+  font-weight: 400;
+  font-size: 20px;
+}
+ .p7{
+  height: 50px;
+  width: 150px;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+ }
+
+ .p7:hover{
+  background-color: rgb(44, 82, 216);
+  color: white;
+ }
+
+ .p6{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 15px;
+  border-top: 1px dotted white;
+ }
+
+ /* login page */
+
+ .s1{
+  border: 2px soild white;
+  color: black;
+  background:linear-gradient(
+    to left, right,
+    rgb(20, 19, 19),
+    rgb(17, 17, 15),
+    rgb(15, 15, 14)
+  );
+  color:white;
+  box-shadow: 0px 0px 50px whitesmoke;
+  transform: rotate(0deg);
+  
+  width: 280px;
+  height: 300px;
+  margin-left: 630px;
+  margin-top: 80px;
+  border-radius: 10px;
+ }
+
+ .s2{
+  text-align: center;
+  
+ }
+
+ .s3{
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+ }
+
+ .s3:hover{
+  background-color: black;
+  color: white;
+ }
+
+ .s4{
+  color:rgb(244, 244, 245) ;
+  margin-left: 100px;
+ }
+
+
+ /* Categrioes */
+
+ .c1{
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+  
+  text-align: center;
+ }
+
+ .c2{
+  border: 0px solid rgb(4, 4, 4);
+  width:200px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px rgb(218, 87, 87);
+  box-sizing: border-box;
+  
+ }
+ .c2:hover{
+  background-color:rgb(233, 141, 141);
+  
+  cursor: pointer;
+ }
+
+ .c3{
+  width: 200px;
+  height: 120px;
+  /* margin-left: 9px;
+  margin-top: 10px; */
+  border-radius: 5px;
+  object-fit: cover;
+ }
+
+ .c5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
