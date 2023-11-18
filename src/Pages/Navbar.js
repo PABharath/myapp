@@ -9,6 +9,10 @@ const Navbar = () => {
   //   alert(data)
   // }
 
+  let data = ()=>{
+      confirm()
+  }
+
   return (
     <div >
       <div className='p1'>
@@ -39,7 +43,7 @@ const Navbar = () => {
         <p className='s4'>Forgot password?</p>
         
         
-        <button  className='s3'>Login</button>
+        <button onClick={data} className='s3'>Login</button>
         <br/>
         
       </div>

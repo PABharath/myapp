@@ -1,0 +1,77 @@
+.main2{
+    background-image: url('../Images//back10.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.r7{
+    box-shadow: 0 0 50px white;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 1.5%;
+    /* background-image: url('../Images/baack12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+
+
+
+.r1{
+    background:linear-gradient(
+        to right,
+        rgb(43, 41, 41) ,
+        rgb(63, 63, 62),
+        rgb(39, 27, 27)
+    );
+    padding: 10px;
+    color: white;
+}
+h2{
+color: white;
+}
+
+.r2{
+    text-align: center;
+    color: white;
+}
+
+.r3{
+    margin-left: 40%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.r4{
+    margin-left: 40%;
+    width: 20%;
+}
+
+.r5{
+    margin-left: 45%;
+    width: 10%;
+    padding: 10px;
+    background-color: rgb(144, 170, 201);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.r6{
+    width: 600px;
+    margin-left: 18%;
+    /* box-shadow: 0 0 50px white; */
+    border-radius: 10px;
+}
+
+.r8,.r9{
+    background-color: white;
+    color: black;
+}
+
+.r8{
+    background-color: rgb(143, 185, 171);
+}
+

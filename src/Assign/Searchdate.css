@@ -1,0 +1,91 @@
+.main{
+    background-image: url('../Images/back6.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 11%;
+}
+
+
+
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+    
+    
+    
+  }
+
+  .h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  label {
+    /* margin-left: 30%; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type='date'] {
+    padding: 8px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+  
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color:rgb(176, 182, 244);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    /* margin-left: 40%; */
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color:blue;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+    border: 2px solid black;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  th {
+    background-color: #161515;
+  }
+  th:hover{
+    background-color:black;
+    color: white;
+  }
+  

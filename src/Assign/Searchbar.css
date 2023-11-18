@@ -1,0 +1,96 @@
+.Container1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* border: 0px solid black; */
+    border-radius: 5px;
+     box-shadow: 0px 0px 100px black; 
+    margin-top: 2%;
+   
+}
+.main1{
+    background-image: url('../Images/back7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header{
+    background:linear-gradient(
+        to left,
+        rgb(15, 14, 13),
+        rgb(135, 132, 132),
+        rgb(19, 19, 18)
+    );
+    color: white;
+    width: 100%;
+    padding: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: 30;
+
+  }
+  
+  label {
+    margin-right: 10px;
+    font-family: cursive;
+  }
+  
+  input[type='date'],
+  input[type='text'] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 20%;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: rgb(133, 133, 237);
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  th,td:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  th {
+    background-color:grey;
+  }
+
+  .header1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+  }
+  
